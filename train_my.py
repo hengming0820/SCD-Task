@@ -29,7 +29,7 @@ from models.CG_SPNet import CG_SPNet as Net
 import sys
 train_BS=sys.argv[1:]
 #train_BS=['','','10','0.001']
-#train_BS=["10", "0.001", "1", "0", "D:/pycharm/CG_SPNet/checkpoints/SD/CG_SPNet_7e_mIoU73.72_Sek23.84_Fscd63.05_OA87.84.pth", "D:/pycharm/data/socend", "D:/pycharm/CG_SPNet/results", "D:/pycharm/CG_SPNet/logs", "D:/pycharm/CG_SPNet/checkpoints/SD", ""]
+#train_BS=["50", "0.1", "8", "0", "D:/pycharm/CG_SPNet/checkpoints/SD/CG_SPNet_7e_mIoU73.72_Sek23.84_Fscd63.05_OA87.84.pth", "D:/pycharm/data/socend", "D:/pycharm/CG_SPNet/results", "D:/pycharm/CG_SPNet/logs", "D:/pycharm/CG_SPNet/checkpoints/SD", ""]
 NET_NAME = 'CG_SPNet'
 #DATA_NAME = 'CZ'
 #DATA_NAME = 'MD'
